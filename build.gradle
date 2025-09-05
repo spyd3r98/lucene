@@ -63,5 +63,10 @@ plugins {
   id "lucene.regenerate.snowball"
   id "org.sonarqube" version "6.3.1.5724"
 }
-
+sonar {
+  properties {
+    property "sonar.projectKey", "spyd3r98_lucene"
+    property "sonar.organization", "spyd3r98"
+  }
+}
 description = 'Grandparent project for Apache Lucene Core'
